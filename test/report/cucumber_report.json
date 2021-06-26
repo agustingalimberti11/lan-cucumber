@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "voy a comprar un producto y escoger un medio de pago.",
+        "description": "",
+        "id": "comprar-un-ticket;voy-a-comprar-un-producto-y-escoger-un-medio-de-pago.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": ": como cliente ingreso a la URL \"https://www.latam.com/es_ar/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": ": selecciono un destino.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": ": Lo agrego a la bolsa.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": ": escojo un medio de pago.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Prueba1"
+          }
+        ]
+      }
+    ],
+    "name": "comprar un ticket",
+    "description": "",
+    "id": "comprar-un-ticket",
+    "keyword": "Feature",
+    "uri": "src/test/java/lan/test.feature"
+  }
+]

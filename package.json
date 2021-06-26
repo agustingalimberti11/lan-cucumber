@@ -1,0 +1,26 @@
+{
+  "name": "selenium-cucumber-java",
+  "version": "1.0.0",
+  "description": "UI Automation Framework using Selenium WebDriver, Cucumber and Java",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustingalimberti/lan.git"
+  },
+  "author": "Agustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustingalimberti/lan/issues"
+  },
+  "homepage": "https://github.com/agustingalimberti/lan#readme",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
